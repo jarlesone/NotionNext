@@ -1,6 +1,6 @@
 const CONFIG = {
 
-  SIMPLE_LOGO_IMG: '/Logo.webp',
+  SIMPLE_LOGO_IMG: '', //原来为Logo.webp
   SIMPLE_TOP_BAR: true, // 显示顶栏
   SIMPLE_TOP_BAR_CONTENT: process.env.NEXT_PUBLIC_THEME_SIMPLE_TOP_TIPS || '',
   SIMPLE_LOGO_DESCRIPTION: process.env.NEXT_PUBLIC_THEME_SIMPLE_LOGO_DESCRIPTION || '',
