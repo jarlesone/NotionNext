@@ -5,6 +5,7 @@ import Link from 'next/link'
  * @param {*} param0
  * @returns
  */
+/*
 export default function BlogArchiveItem({ archiveTitle, archivePosts }) {
   return (
     <div key={archiveTitle}>
@@ -35,3 +36,4 @@ export default function BlogArchiveItem({ archiveTitle, archivePosts }) {
     </div>
   )
 }
+*/
