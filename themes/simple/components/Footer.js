@@ -34,6 +34,7 @@ export default function Footer(props) {
             </a>
           )}
           <BeiAnGongAn />
+          
           <span className='no-underline ml-4'>
             Powered by
             <a
@@ -41,6 +42,8 @@ export default function Footer(props) {
               className=' hover:underline'>
               NotionNext {siteConfig('VERSION')}
             </a>
+              <br/>
+              网站备案号:湘ICP备2023016837号
           </span>
         </div>
       </div>
