@@ -36,7 +36,7 @@ export default function Footer(props) {
           <BeiAnGongAn />
           
           <span className='no-underline ml-4'>
-              网站备案号:湘ICP备2023016837号
+             
           </span>
         </div>
       </div>
