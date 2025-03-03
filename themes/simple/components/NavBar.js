@@ -15,13 +15,13 @@ export default function NavBar(props) {
   const { searchModal } = useSimpleGlobal()
 
   // 展示搜索框
- /* const toggleShowSearchInput = () => {
+ const toggleShowSearchInput = () => {
     if (siteConfig('ALGOLIA_APP_ID')) {
       searchModal.current.openSearch()
     } else {
       changeShowSearchInput(!showSearchInput)
     }
-  }*/
+  }
 
   const onKeyUp = e => {
     if (e.keyCode === 13) {
